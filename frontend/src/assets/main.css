@@ -1,0 +1,88 @@
+:root {
+  --bs-primary: #fd5d2d;
+  --bs-primary-rgb: 253, 93, 45;
+  --bs-link-color: #fd5d2d;
+  --bs-link-hover-color: #d9461b;
+  --app-sidebar-width: 240px;
+  --app-bg: #f5f6f8;
+}
+
+body {
+  background: var(--app-bg);
+  font-size: 0.925rem;
+}
+
+.btn-primary {
+  --bs-btn-bg: #fd5d2d;
+  --bs-btn-border-color: #fd5d2d;
+  --bs-btn-hover-bg: #e94e20;
+  --bs-btn-hover-border-color: #e94e20;
+  --bs-btn-active-bg: #d9461b;
+  --bs-btn-active-border-color: #d9461b;
+  --bs-btn-disabled-bg: #fd5d2d;
+  --bs-btn-disabled-border-color: #fd5d2d;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #fd5d2d;
+  --bs-btn-border-color: #fd5d2d;
+  --bs-btn-hover-bg: #fd5d2d;
+  --bs-btn-hover-border-color: #fd5d2d;
+  --bs-btn-active-bg: #d9461b;
+  --bs-btn-active-border-color: #d9461b;
+}
+
+.pagination {
+  --bs-pagination-active-bg: #fd5d2d;
+  --bs-pagination-active-border-color: #fd5d2d;
+  --bs-pagination-color: #555;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #feae96;
+  box-shadow: 0 0 0 0.2rem rgba(253, 93, 45, 0.15);
+}
+
+.card {
+  border: none;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.06);
+}
+
+.table > :not(caption) > * > * {
+  padding: 0.85rem 0.75rem;
+}
+
+.table thead th {
+  font-weight: 600;
+  color: #333;
+  background: #fafafa;
+  white-space: nowrap;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.thumb {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  background: #eee;
+}
+
+.text-truncate-1 {
+  max-width: 360px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.page-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
