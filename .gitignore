@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment (giữ lại .env.example và .env.production)
+.env
+.env.local
+.env.*.local
+
+# File zip nộp bài
+*.zip
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/

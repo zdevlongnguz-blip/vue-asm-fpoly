@@ -4,18 +4,18 @@
 Toàn bộ code dùng ES Module (`"type": "module"`, `import/export`).
 
 ```
-sales-app/
+vue-asm-fpoly/
 ├── backend/    Express + Mongoose + JWT
 └── frontend/   Vue 3 + Vite + Vue Router + Pinia + Axios + Bootstrap 5
 ```
 
 ## Yêu cầu
-- Node.js ≥ 20
+- Node.js ≥ 22.22 (khuyên dùng **Node 24 LTS**) — vite 8, mongoose 9 và một số package con yêu cầu bản này
 - MongoDB đang chạy ở `mongodb://127.0.0.1:27017` (hoặc MongoDB Atlas, sửa `MONGODB_URI` trong `backend/.env`)
 
 ## Chạy dự án
 
-Mọi lệnh dưới đây chạy ở **thư mục gốc** `sales-app/`.
+Mọi lệnh dưới đây chạy ở **thư mục gốc** `vue-asm-fpoly/`.
 
 | Lệnh | Tác dụng |
 |---|---|
@@ -27,7 +27,7 @@ Mọi lệnh dưới đây chạy ở **thư mục gốc** `sales-app/`.
 | `npm run build` | Build frontend ra `frontend/dist` |
 | `npm start` | Chạy bản production: backend phục vụ luôn `frontend/dist`, chỉ 1 server `:3000` |
 | `npm run prod` | `build` + `start` |
-| `npm run pack -- PH12345` | Đóng gói zip nộp LMS → `../WEB207_PH12345_Assignment.zip` (bỏ `node_modules`, `dist`; tự kèm `BaoCao.doc(x)` nếu đặt cạnh thư mục `sales-app`) |
+| `npm run pack -- PH12345` | Đóng gói zip nộp LMS → `../WEB207_PH12345_Assignment.zip` (bỏ `node_modules`, `dist`; tự kèm `BaoCao.doc(x)` nếu đặt cạnh thư mục `vue-asm-fpoly`) |
 
 Lần đầu:
 ```bash
